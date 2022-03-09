@@ -1,0 +1,24 @@
+<html>  
+<head>  
+</head>  
+<body> 
+<marquee>welcome to the world of javascript</marquee>
+Enter a number: <input id = "num">  
+<br><br>  
+<button onclick = "facto()"> Factorial </button>  
+<p id = "fa"></p>  
+<script>  
+function facto(){  
+var i, num, f;  
+f = 1;  
+num = document.getElementById("num").value;  
+for(i = 1; i <= num; i++)    
+{  
+f = f * i;  
+}  
+ii = i - 1;    
+document.getElementById("fa").innerHTML = "The factorial  " + i + " is: " + f ;  
+}  
+</script>  
+</body>  
+</html>  
